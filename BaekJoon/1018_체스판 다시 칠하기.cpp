@@ -66,3 +66,36 @@ BWBBBBWW
 답 : 29
 출력 : 35
  */
+
+/* alex9801님의 답
+#include <stdio.h>
+
+char arr[50][51];
+
+inline bool f(char a)
+{
+	return a=='W'?0:1;
+}
+
+int main()
+{
+	int x,y,cnt,mn=32,n,m,i,j;
+	scanf("%d%d",&n,&m);
+	for(i=0;i<n;i++)
+		scanf("%s",arr[i]);
+	for(i=0;i<n-7;i++)
+	{
+		for(j=0;j<m-7;j++)
+		{
+			cnt=0;
+			for(x=i;x<i+8;x++)
+				for(y=j;y<j+8;y++)
+					cnt+=f(arr[x][y])==(x+y)%2;
+			cnt=cnt>32?64-cnt:cnt;
+			mn=cnt<mn?cnt:mn;
+		}
+	}
+	printf("%d",mn);
+	return 0;
+}
+ */
