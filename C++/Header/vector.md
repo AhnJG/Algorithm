@@ -3,7 +3,7 @@
 ```
 
 동적배열이다. 임의의 위치에 있는 원소 접근과, 뒤에서 원소를 추가하는 연산은 O(1)(분할상환분석)을 보장한다.
-
+[vector 벡터 정리 및 예제](https://hyeonstorage.tistory.com/324)
 
 
 ```c++
@@ -11,7 +11,7 @@ using namespace std;
 int main(){
 	//int 자료형을 저장하는 동적배열
 	vector<int> vec1;
-	
+
 	//double 자료형을 저장하는 동적배열
 	vector<double> vec2;
 
