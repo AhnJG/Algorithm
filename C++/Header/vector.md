@@ -1,12 +1,12 @@
+## Vector
+
+- 동적배열이다. 임의의 위치에 있는 원소 접근과, 뒤에서 원소를 추가하는 연산은 O(1)(분할상환분석)을 보장한다.
+- 랜덤 접근이 많을 경우 vector, 데이터 중간에 삽입, 삭제가 많을경우 list 사용이 유리합니다.
+- [vector 벡터 정리 및 예제](https://hyeonstorage.tistory.com/324)
+
+
 ```c++
 #include <vector>
-```
-
-동적배열이다. 임의의 위치에 있는 원소 접근과, 뒤에서 원소를 추가하는 연산은 O(1)(분할상환분석)을 보장한다.
-[vector 벡터 정리 및 예제](https://hyeonstorage.tistory.com/324)
-
-
-```c++
 using namespace std;
 int main(){
 	//int 자료형을 저장하는 동적배열

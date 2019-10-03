@@ -1,4 +1,4 @@
-[Queue](https://baactree.tistory.com/29)
+## [Queue](https://baactree.tistory.com/29)
 
 - Queue에서는 탐색(검색)이 불가능합니다.
 
