@@ -13,8 +13,8 @@ n = int(input())
 print(find(n) % 10007)
 
 # method 2
-n = int(input())
-a = b = 1
-for i in range(n):
-    a, b = b, a+b
-print(a%10007)
+# n = int(input())
+# a = b = 1
+# for i in range(n):
+#     a, b = b, a+b
+# print(a%10007)
