@@ -4,7 +4,7 @@ import sys
 n = int(sys.stdin.readline())
 data = [0] + [int(sys.stdin.readline()) for _ in range(n)] + [0]
 
-dp = [0] * (n+2)
+dp = [0] * (n+2) # n번째 최댓값
 dp[1], dp[2] = data[1], data[1] + data[2]
 
 for i in range(3, n+1):
