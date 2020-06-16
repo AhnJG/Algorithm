@@ -1,8 +1,10 @@
+# Ref https://pa-pico.tistory.com/83
+import sys 
+
 n = int(input())
 data = list(map(int, input().split()))
 
-dp = [0] * n
-dp[0] = 1
+dp = [1] * n
 
 for i in range(1, n):
     max_dp = 0
